@@ -1,0 +1,388 @@
+/*
+	Author : Md. Faisal Hamid
+	Address: 
+	Website: 
+	Email  : 
+	Version: 1.0
+*/
+
+/*******************
+    Global CSS
+*******************/
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+a{
+	color: #333;
+}
+a:focus,
+a:hover,
+a:active {
+    color: #ffe600;
+    text-decoration: underline;
+}
+
+.center{
+	margin: 0 auto;
+	display: block;
+}
+
+
+/**********************
+    Banner Section
+**********************/
+.banner{
+	background: url(../images/banner.jpg)no-repeat center top;
+	background-size: cover;
+    height: 850px;
+    background-attachment: fixed;
+}
+.banner-content{
+	padding: 200px 0;
+}
+.banner-content h3{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.banner-content h1{
+	color: #ffe600;
+	font-size: 40px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding-bottom: 70px;
+}
+.exp-btn{
+	background: transparent;
+	border: 1px solid #ffe600;
+	border-radius: 0;
+	padding: 12px 45px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 300;
+}
+.exp-btn:hover{
+    background: #FFE600;
+    color: #333;
+    cursor: pointer;
+    border: 1px solid #FFE600;
+    transition: all 0.5s ease-in-out;
+    font-weight: bold;
+    box-shadow: 3px 4px 9px #333;
+}
+.fa-angle-down{
+	color: #fff;
+	font-weight: 300;
+	padding-top: 25px;
+}
+.fa-angle-down:hover{
+	color: #ffe600;
+    transition: all 0.5s ease-in-out;
+}
+/**********************
+    Navigation Menu
+**********************/
+.navigation-menu{
+	padding: 20px 0;
+	border-bottom: 2px solid #FFE600;
+}
+nav ul{
+	margin-top: 18px;
+}
+nav ul li{
+	display: inline;
+	list-style: outside none none;
+	font-size: 18px;
+	padding: 10px 15px;
+	margin-right: 2.5em;
+	color: gray;
+}
+/**********************
+    About Us
+**********************/
+.about-us{
+	padding: 70px 0;
+}
+.about-us h1{
+	font-size: 36px;
+	color: #333;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+	font-weight: 300;
+}
+.about-us h4{
+	font-size: 16px;
+	color: #FFE600;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding-bottom: 40px;
+}
+.about-us h2 span{
+	color: #FFE600;
+	font-size: 24px;
+	font-weight: 400;
+	border-right: 1px solid #FFE600;
+}
+.about-us h2{
+	font-size: 20px;
+	font-weight: 300;
+	color: #333;
+}
+.about-us p{
+	font-size: 16px;
+	padding: 25px 20px;
+	color: gray;
+	font-weight: 300;
+}
+/**********************
+    Testimonial 
+**********************/
+.testimonial{
+	padding: 250px 20px;
+	background-color: #00adff;
+}
+.testimonial h1{
+	font-size: 36px;
+	font-weight: 300;
+	text-transform: uppercase; 
+	color: #333;
+
+}
+.testimonial p{
+	color: #fff;
+	font-weight: 400;
+	font-size: 16px;
+}
+/**********************
+    Portfolio 
+**********************/
+.portfolio{
+	padding: 60px 0;
+}
+.portfolio h1{
+	color: #333;
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 300;
+}
+.portfolio p{
+	font-size: 16px;
+	text-align: center;
+	color: #FFE600;
+	font-weight: 300;
+}
+.portfolio-item{
+	padding-top: 70px;
+}
+.portfolio-item-two{
+	padding-top: 30px;
+}
+.gallery{
+	position: relative;
+	overflow: hidden;
+}
+.portfolio-img:hover{
+	transform: scale(1.1,1.1);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.bottom-info{
+	margin-top: 35px;
+}
+.portfolio .fa{
+	color: #FFE600;
+	padding-top: 0;
+	margin-top: -15px;
+	font-weight: 300;
+}
+/**********************
+       Clients 
+**********************/
+.clients{
+	padding: 65px 0;
+	background-color: #424245;
+}
+.clients h1{
+	color: #fff;
+	font-size: 36px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.clients p{
+	font-size: 16px;
+	color: #FFE600;
+	font-weight: 300;
+}
+.cliets-logo{
+	padding: 70px 0 20px; 
+}
+.cliets-logo img:hover{
+	transform: scale(1.2,1.2);
+	transition: all 0.5s ease-in-out;
+	cursor: pointer;
+}
+
+/**********************
+       Contact 
+**********************/
+.contact{
+	padding: 60px 0;
+}
+.contact h1{
+	font-size: 36px;
+	font-weight: 300;
+	color: #333;
+	text-transform: uppercase;
+}
+.contact p{
+	font-size: 16px;
+	font-weight: 300;
+	color: #FFE600;
+}
+.contact-form{
+	padding-top: 70px;
+}
+.contact-field{
+	border: none;
+	background: #FFE600;
+	color: #fff;
+	padding: 10px 25px;
+	width: 100%;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.contact .btn-default{
+	width: 100%;
+	color: #fff;
+	background: #333;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 0;
+}
+.contact .btn-default:hover{
+	background: gray;
+	color: #333;
+}
+
+/**********************
+       Footer 
+**********************/
+footer{
+	background: #333;
+	color: #fff;
+	padding:20px;
+}
+footer h4{
+	font-size: 15px;
+	font-weight: 300;
+}
+.social-media{
+	text-align: right;
+}
+.social-media ul li{
+	list-style: none;
+	display: inline;
+	padding-right: 20px;
+	font-size: 18px;
+	padding-top: 5px;
+}
+.fa-facebook:hover{
+	color: blue;
+}
+.fa-twitter:hover{
+	color: skyblue;
+}
+.fa-linkedin:hover{
+	color: navy;
+}
+.fa-google-plus:hover{
+	color: maroon;
+}
+.fa-youtube:hover{
+	color: red;
+}
+
+
+
+
+/*****************
+	Media Query
+*****************/
+@media screen and (max-width: 480px){
+	.banner{
+		height: auto;
+	}
+	.banner-content {
+    	padding: 100px 0;
+	}
+	.banner-content h1{
+		padding-bottom: 15px;
+	}
+	.fa-angle-down{
+		padding-top: 0px;
+	}
+	.logo{
+		margin: 0 auto;
+ 	}
+ 	nav ul li{
+	    display: list-item;
+	    list-style: outside none none;
+	    font-size: 18px;
+	    padding: 10px 15px;
+	    margin-right: 0em;
+	    background: #e8e8e8;
+	    text-align: center;
+	}
+	nav ul {
+	    margin-top: 18px;
+	    padding: 0;
+	}
+	a:hover{
+		font-size: 18px;
+		transition: all 0.5 ease-in-out;
+		color: yellow;
+	}
+	.about-us {
+    	padding: 25px 0;
+	}
+	.about-us h4{
+		padding: 0;
+	}
+	.testimonial {
+    	padding: 50px 5px 70px;
+	}
+	.portfolio {
+	    padding: 20px 0;
+	}
+	.portfolio-item {
+	    padding-top: 30px;
+	}
+	.portfolio-img{
+		margin-bottom:15px;
+	}
+	.portfolio-item-two {
+	    padding-top: 0;
+	}
+	.clients {
+	    padding: 20px 0;	
+	}
+	.cliets-logo {
+    	padding: 10px 0 20px;
+	}
+	.contact {
+	    padding: 20px 0;
+	}
+	.contact-form {
+    	padding-top: 35px;
+	}
+	footer h4,
+	.social-media {
+	    text-align: center;
+	}
+
+}
+
